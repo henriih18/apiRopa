@@ -9,6 +9,8 @@ const getApi = async () => {
   return data;
 };
 
+
+
 const makeProduct = (product) => {
   const card = document.createElement('div');
   card.classList.add('cardProduct');
